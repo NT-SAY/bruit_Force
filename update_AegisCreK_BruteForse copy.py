@@ -1,4 +1,4 @@
-import asyncio
+import asyncio           #да этот проект написан одним кодом,но я начал работать над его читабельностью
 import concurrent.futures
 import hashlib
 import time
@@ -1162,4 +1162,5 @@ if __name__ == "__main__":
     # Установите зависимости: 
     # pip install aiohttp aiohttp-socks fake-useragent uvloop numpy
     
+
     asyncio.run(main())
