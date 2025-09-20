@@ -28,7 +28,7 @@ An intelligent, high-performance brute force tool with AI-powered time estimatio
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ultimate-bruteforcer.git
+git clone https://github.com/NT-SAY/Bruit_Force.git
 cd ultimate-bruteforcer
 
 # Install dependencies
