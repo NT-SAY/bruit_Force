@@ -36,7 +36,7 @@ pip install -r requirements.txt
 Dependencies
 bash
 pip install aiohttp aiohttp-socks fake-useragent uvloop numpy
-📖 Usage
+📖 Usage------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Basic Hash Attack
 bash
 python bruteforcer.py --target 5f4dcc3b5aa765d61d8327deb882cf99 --type hash --wordlist passwords.txt
@@ -46,7 +46,7 @@ python bruteforcer.py --target https://example.com/login --type web --wordlist p
 With Proxies
 bash
 python bruteforcer.py --target https://example.com/login --type web --wordlist passwords.txt --proxies proxies.txt
-⚙️ Configuration
+⚙️ Configuration----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Command Line Arguments
 Argument	Description	Required
 --target	Target hash or URL	Yes
@@ -70,7 +70,7 @@ text
 socks5://user:pass@host:port
 http://user:pass@host:port
 socks4://host:port
-🧠 Intelligent Features
+🧠 Intelligent Features---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Time Estimation
 Predicts attack duration based on wordlist size and hardware
 
@@ -92,12 +92,12 @@ Vectorized hash computations
 
 Batch processing for efficiency
 
-📊 Performance Metrics
+📊 Performance Metrics----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Operation	Speed	Hardware
 MD5 Hashing	5M hashes/sec	CPU
 MD5 Hashing	10B hashes/sec	GPU (Theoretical)
 Web Requests	10-50 reqs/sec	With proxies
-🔧 Advanced Configuration
+🔧 Advanced Configuration-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Custom Rules
 Modify the RuleEngine class to add custom password mutation rules:
 
@@ -114,7 +114,7 @@ strategies = {
     ProtectionLevel.WEAK: {'delay': 0.1, 'concurrency': 50},
     # ... more levels
 }
-⚠️ Legal Disclaimer
+⚠️ Legal Disclaimer-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This tool is intended for:
 
 Educational purposes
@@ -129,7 +129,7 @@ System security assessments
 
 The developers are not responsible for misuse of this tool.
 
-🎯 Roadmap
+🎯 Roadmap----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 GPU acceleration support
 
 SSH brute force implementation
@@ -144,7 +144,7 @@ More hash algorithms
 
 Password pattern analysis
 
-🤝 Contributing
+🤝 Contributing-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 We welcome contributions! Please feel free to submit pull requests, open issues, or suggest new features.
 
 Fork the repository
@@ -160,7 +160,7 @@ Open a Pull Request
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-🙏 Acknowledgments
+🙏 Acknowledgments--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Built with Python AsyncIO for high performance
 
 Uses NumPy for vectorized computations
@@ -168,3 +168,9 @@ Uses NumPy for vectorized computations
 Inspired by modern penetration testing tools
 
 Thanks to all contributors and testers
+
+
+
+P.S. This project is currently under active development and may contain some bugs or unfinished features. Your feedback and contributions are welcome!
+
+P.P.S. This project was created with assistance from AI language models to help with code generation and documentation.
